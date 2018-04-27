@@ -1,0 +1,23 @@
+<Scenario>
+	<Name>Fan scenario</Name>
+	<Money>
+		<Amount>5000</Amount>
+		<Amount>10000</Amount>
+		<Amount>20000</Amount>
+		<Amount>50000</Amount>
+		<Amount>500000</Amount>
+	</Money>
+	<Goals>
+	</Goals>
+	<Years>
+		<Year>1970</Year>
+		<Year>1975</Year>
+        <Year>1988</Year>
+		<Year>2000</Year>
+		<Year>2015</Year>
+		<Year>2020</Year>
+	</Years>
+	<Events>
+	</Events>
+	<Simulation>TRUE</Simulation>
+</Scenario>

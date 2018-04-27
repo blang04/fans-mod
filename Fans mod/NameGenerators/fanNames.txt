@@ -1,0 +1,44 @@
+-start(base)
+-base(mid,material,color,end,stop)
+Kyoga
+ANSIO
+Honeywell
+Oypla Electrical
+Lasko
+Glamouric
+Igenix
+Seville
+Vornado
+Holmes
+Dyson
+Alen
+-mid(material,color,end,stop)
+ Kool
+ Mini
+ TurboForce
+ Elegance
+ UltraSlimline
+ Lil' Blizzard
+ BreatheSmart
+-material(color,end,stop)
+ Metal
+ Plastic
+ Titanium
+ Air Multiplier
+-color(end,stop)
+ Black
+ White
+ Red
+ Yellow
+ Green
+-end(stop)
+ 1000
+ 2000
+ 3000
+ HT-900
+ AM06
+ Table Fan
+ 3300
+ Personal
+ Hand Fan
+ Retro

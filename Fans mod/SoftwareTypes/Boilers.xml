@@ -1,0 +1,79 @@
+<SoftwareType>
+	<Name>Boilers</Name>
+	<Category>Heating</Category>
+	<Description>These are things that heat you up so i recommend you get a fan as well as this.</Description>
+	<Unlock>1970</Unlock>
+	<Random>0.6</Random>
+	<Categories>
+			<Category Name="Small Boiler">
+			<Description>This is the smallest Boiler you can get.</Description>
+			<Popularity>0.6</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>0.9</TimeScale>
+			<Iterative>0.4</Iterative>
+			<NameGenerator>fanNames</NameGenerator>
+		</Category>
+		    <Category Name="Medium Boiler">
+			<Description>This is a normal sized Boiler you can get.</Description>
+                         <Unlock>1982</Unlock>
+			<Popularity>0.7</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>0.6</TimeScale>
+			<Iterative>0.7</Iterative>
+			<NameGenerator>fanNames</NameGenerator>
+            </Category>
+            <Category Name="Large Boiler">
+			<Description>This is a large Boiler you can get.</Description>
+                        <Unlock>1985</Unlock>
+			<Popularity>0.7</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>0.6</TimeScale>
+			<Iterative>0.7</Iterative>
+			<NameGenerator>fanNames</NameGenerator>
+            </Category>
+	</Categories>
+    <OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+        <Features>
+            <Feature Forced="TRUE">
+                <Name>Small Heater</Name>
+                <Description>This is how the boiler heats up your water. PS it will take forever if you have it with the large boiler.</Description>
+                <Category>Plastic Work</Category>
+			    <DevTime>1</DevTime>
+			    <Innovation>0.3</Innovation>
+			    <Usability>0.6</Usability>
+			    <Stability>0.4</Stability>
+			    <CodeArt>0.7</CodeArt>
+			    <SoftwareCategory Category="Small Boiler">0</SoftwareCategory>
+			    <SoftwareCategory Category="Medium Boiler">0</SoftwareCategory>
+			    <SoftwareCategory Category="Large Boiler">0</SoftwareCategory>
+            </Feature>
+            <Feature from="Small Heater">
+                <Name>Medium Heater</Name>
+                <Description>This is how the boiler heats up your water.</Description>
+                <Category>Plastic Work</Category>
+			    <DevTime>3</DevTime>
+			    <Innovation>0.5</Innovation>
+			    <Usability>0.6</Usability>
+			    <Stability>0.5</Stability>
+			    <CodeArt>0.7</CodeArt>
+			    <SoftwareCategory Category="Small Boiler">1982</SoftwareCategory>
+			    <SoftwareCategory Category="Medium Boiler">1984</SoftwareCategory>
+			    <SoftwareCategory Category="Large Boiler">1986</SoftwareCategory>
+            </Feature>
+		   <Feature from="Medium Boiler">
+                            <Name>Large Heater</Name>
+                            <Description>This is how the boiler heats up your water.</Description>
+                            <Category>Plastic Work</Category>
+			    <DevTime>3</DevTime>
+			    <Innovation>0.5</Innovation>
+			    <Usability>0.6</Usability>
+			    <Stability>0.5</Stability>
+			    <CodeArt>0.7</CodeArt>
+			    <SoftwareCategory Category="Small Boiler">1986</SoftwareCategory>
+			    <SoftwareCategory Category="Medium Boiler">1988</SoftwareCategory>
+			    <SoftwareCategory Category="Large Boiler">1990</SoftwareCategory>
+			</Feature>
+        </Features>
+</SoftwareType>
