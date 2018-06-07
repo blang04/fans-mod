@@ -211,55 +211,6 @@
 			 <SoftwareCategory Category="Big Fan">1993</SoftwareCategory>
 			 <Dependency Software="Fans">Medium Electric Motor</Dependency>
 		</Feature>
-		<Feature From="Silent Electric Motor">
-       <Name>Small Magnetic Motor </Name>
-       <Description>A fan that doesn't make noise and doesn't need any electricity to run. </Description>
-			 <Category>Sci-Fi Work</Category>
-       <DevTime>6</DevTime>
-       <Innovation>1.4</Innovation>
-       <Usability>1.6</Usability>
-       <Stability>0.8</Stability>
-       <CodeArt>1</CodeArt>
-			 <SoftwareCategory Category="Big Fan">2012</SoftwareCategory>
-			 <SoftwareCategory Category="XL Fan">2015</SoftwareCategory>
-			 <SoftwareCategory Category="Sci-Fi Fan">2020</SoftwareCategory>
-		</Feature>
-    <Feature From="Small Magnetic Motor">
-       <Name>Magnetic Motor</Name>
-       <Description>A fan that doesn't make noise and doesn't need any electricity to run.</Description>
-			 <Category>Sci-Fi Work</Category>
-       <DevTime>7</DevTime>
-       <Innovation>1.5</Innovation>
-       <Usability>1.9</Usability>
-       <Stability>1.1</Stability>
-       <CodeArt>1</CodeArt>
-			 <SoftwareCategory Category="Big Fan">2015</SoftwareCategory>
-			 <SoftwareCategory Category="XL Fan">2017</SoftwareCategory>
-			 <SoftwareCategory Category="Sci-Fi Fan">2020</SoftwareCategory>
-		</Feature>
-    <Feature From="Magnetic Motor">
-       <Name>Large Magnetic Motor</Name>
-       <Description>This motor doesn't make noise, doesn't need electricity, and cools you faster.</Description>
-			 <Category>Sci-Fi Work</Category>
-       <DevTime>8</DevTime>
-       <Innovation>1.6</Innovation>
-       <Usability>2.2</Usability>
-       <Stability>1.4</Stability>
-       <CodeArt>1</CodeArt>
-       <SoftwareCategory Category="XL Fan">2019</SoftwareCategory>
-			 <SoftwareCategory Category="Sci-Fi Fan">2020</SoftwareCategory>
-		</Feature>
-    <Feature from="Large Magnetic Motor">
-       <Name>XL Magnetic Motor </Name>
-       <Description>This motor doesn't make noise, doesn't need electricity, and cools you even faster.</Description>
-			 <Category>Sci-Fi Work</Category>
-       <DevTime>7</DevTime>
-       <Innovation>1.8</Innovation>
-       <Usability>2.5</Usability>
-       <Stability>1.8</Stability>
-       <CodeArt>1</CodeArt>
-			 <SoftwareCategory Category="Sci-Fi Fan">2020</SoftwareCategory>
-		</Feature>
 
 		<Feature Forced="TRUE">
 			<Name>Plastic Blade</Name>
@@ -364,7 +315,7 @@
 			<SoftwareCategory Category="XL Fan">2003</SoftwareCategory>
 			<SoftwareCategory Category="Sci-Fi Fan">2020</SoftwareCategory>
 		</Feature>
-			<Feature From="Large Holographic Display">
+			<Feature From="Advanced Speed Controller">
 			<Name>Mind Controlled Speed Controller</Name>
 			<Description>You can change the speed... WITH YOUR MIND!</Description>
 			<Category>Sci-Fi Work</Category>
@@ -375,7 +326,7 @@
 			<CodeArt>0.3</CodeArt>
 			<SoftwareCategory Category="Sci-Fi Fan">2020</SoftwareCategory>
 		</Feature>
-    <Feature From="Advanced Speed Controller">
+    <Feature >
 			<Name>Basic LCD Display</Name>
 			<Description>You can change the speed only.</Description>
 			<Category>Electronic Work</Category>
